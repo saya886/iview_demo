@@ -82,6 +82,9 @@
                 <Layout :style="{padding: '0 24px 24px'}">
                     <Content :style="{padding: '24px', minHeight: min_height, background: '#fff',margin: '24px'}">
                         <router-view :message="select_item"></router-view>
+                        <div :style="{margin:'24px',width:'100px',height:'100px',background: '#fff'}">
+                            <a>123</a>
+                        </div>
                     </Content>
                 </Layout>
             </Layout>
